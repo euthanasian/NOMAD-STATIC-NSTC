@@ -1,4 +1,3 @@
-```python
 from flask import Flask, request, jsonify
 import requests
 import threading
@@ -246,4 +245,3 @@ if __name__ == "__main__":
         port=int(os.environ.get("PORT", 5000)),
         debug=False
     )
-```
